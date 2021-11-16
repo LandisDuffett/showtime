@@ -12,7 +12,7 @@ const tempOverview = fs.readFileSync(
   `${__dirname}/templates/template-overview.html`,
   'utf-8'
 );
-
+ 
 const tempCard = fs.readFileSync(
   `${__dirname}/templates/template-card.html`,
   'utf-8'
@@ -30,7 +30,7 @@ console.log(slugs);
 
 const server = http.createServer((req, res) => {
   const { query, pathname } = url.parse(req.url, true);
-
+  
   if (pathname === '/' || pathname === '/overview') {
     res.writeHead(200, {
       'Content-type': 'text/html'

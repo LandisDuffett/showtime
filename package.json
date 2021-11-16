@@ -1,0 +1,27 @@
+{
+  "name": "showtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LandisDuffett/showtime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LandisDuffett/showtime/issues"
+  },
+  "homepage": "https://github.com/LandisDuffett/showtime#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^17.1.0",
+    "slugify": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
